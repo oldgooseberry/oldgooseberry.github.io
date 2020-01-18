@@ -48,7 +48,7 @@ A - B &= (5)(2) = 10 \\
 \end{align*}$
 </div>{:/}{% endraw %}
 
-We know $A + B$ is bigger than $A - B$ so we know the factor $A + B$ will always use at least the factor $101$. Looking at the number of factors and the previous fact, there are only $5$ different sets of equations to check. Lets work the first set and see if we get any hints that will make checking the $5$ faster. We will solve the first equation of $A$ and substitute this into the second equation and solve for $B$
+We know $A + B$ is bigger than $A - B$ so we know the factor $A + B$ will always use at least the factor $101$. Looking at the number of factors and the previous fact, there are only $5$ different sets of equations to check. Lets work the first set and see if we get any hints that will make checking the $5$ faster. We will solve the first equation for $A$ and substitute this into the second equation and solve for $B$
 
 {% raw %}{::nomarkdown}<div>
 $\begin{align*}
@@ -65,7 +65,7 @@ First, this is the solution we were given to begin with. Next, it becomes clear 
 
 $-2B = (\text{first constant}) - (\text{second constant})$
 
-There can not be an integer solution to this set of equations unless the difference is *even*. So we can take a short cut an simply look at all the differences.
+There can not be an integer solution to this set of equations unless the difference is *even*. So we can take a short cut and simply look at all the differences.
 
 {% raw %}{::nomarkdown}<div>
 $\begin{align*}
@@ -85,7 +85,7 @@ B &= 504 \rightarrow A = 1010 - 504 = 506 \\
 \end{align*}$
 </div>{:/}{% endraw %}
 
-Therefore there are two different pair of integers such that the difference of their squares is $2020$
+Therefore there are two different pairs of integers such that the difference of their squares is $2020$
 
 
 {% raw %}{::nomarkdown}<div>
