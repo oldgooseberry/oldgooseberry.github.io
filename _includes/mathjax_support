@@ -1,0 +1,47 @@
+<script type="text/x-mathjax-config">
+
+MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+
+MathJax.Hub.Config({
+showProcessingMessages: false,
+messageStyle: 'none',
+
+'HTML-CSS': {
+imageFont: null
+},
+
+TeX: {
+extensions: ["[mhchem]/mhchem.js"], 
+equationNumbers: {
+autoNumber: "AMS"
+}
+},
+tex2jax: {
+skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+inlineMath: [ ['$', '$'] ],
+displayMath: [ ['$$', '$$'] ],
+processEnvironments: false,
+processEscapes: false,
+}
+});
+
+MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+alert("Math Processing Error: "+message[1]);
+});
+
+MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+alert("Math Processing Error: "+message[1]);
+});
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<!--
+<script id="MathJax-script" async
+	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+-->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
