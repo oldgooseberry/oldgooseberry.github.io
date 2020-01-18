@@ -19,7 +19,7 @@ is there any *other way* to write $2020$ as the difference of two squares?
 
 # Solution
 
-If we spend a few minutes thinking about the wording of this problem, we might eventually hit on the phrase *"difference of two squares"*. From *Algebra*, what do this mean exactly. This means we have something like
+If we spend a few minutes thinking about the wording of this problem, we might eventually hit on the phrase *"difference of two squares"*. From *Algebra*, what does this mean exactly. This means we have something like
 
 $A^{2} - B^{2}$
 
