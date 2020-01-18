@@ -13,10 +13,10 @@
     "relUrl": "/about/"
   }
   ,"2": {
-    "title": "Solutions To Questions",
-    "content": "This section contains the solutions to the problems which were posted. I will try to keep up with the solutions here. I will wait a few days to a week to post. . Ok, so working on a few for the geometry problems I have realized I have no good way to mark up the drawings to “show” work. So… I fake it using a drawing tool over the image. I am not an artist. Some of them suck. .",
-    "url": "http://localhost:4000/solns/",
-    "relUrl": "/solns/"
+    "title": "Problems From the Past",
+    "content": "Here are the problems and solutions to the problems asked at some point in the past I can not even recall when. And yep, these are not likley to be in any order similar to when they were posed. Sorry, I am not even sure I have them all here. . Find the length of the side of the rectangle. . . A larger image for printing . Solution . | It is possible to write the number $2020$ as the difference of two squares . $2020 = 106^{2} - 96^{2}$ . is there any other way to write $2020$ as the difference of two squares? . Note: We are looking for the difference of squares of positive integers . Solution . |",
+    "url": "http://localhost:4000/solns/old/",
+    "relUrl": "/solns/old/"
   }
   ,"3": {
     "title": "Test math",
@@ -31,10 +31,10 @@
     "relUrl": "/solns/jan2020/"
   }
   ,"5": {
-    "title": "Problems From the Past",
-    "content": "Here are the problems and solutions to the problems asked at some point in the past I can not even recall when. And yep, these are not likley to be in any order similar to when they were posed. Sorry, I am not even sure I have them all here. . Find the length of the side of the rectangle. . . A larger image for printing . Solution . |",
-    "url": "http://localhost:4000/solns/old/",
-    "relUrl": "/solns/old/"
+    "title": "Solutions To Questions",
+    "content": "This section contains the solutions to the problems which were posted. I will try to keep up with the solutions here. I will wait a few days to a week to post. . Ok, so working on a few for the geometry problems I have realized I have no good way to mark up the drawings to “show” work. So… I fake it using a drawing tool over the image. I am not an artist. Some of them suck. .",
+    "url": "http://localhost:4000/solns/",
+    "relUrl": "/solns/"
   }
   ,"6": {
     "title": "Soln 2020-01 #",
@@ -43,78 +43,84 @@
     "relUrl": "/solns/old/old1.html"
   }
   ,"7": {
+    "title": "Soln 2020-01 #2",
+    "content": "Question . It is possible to write the number $2020$ as the difference of two squares . $2020 = 106^{2} - 96^{2}$ . is there any other way to write $2020$ as the difference of two squares? . Solution . If we spend a few minutes thinking about the wording of this problem, we might eventually hit on the phrase “difference of two squares”. From Algebra, what do this mean exactly. This means we have something like . $A^{2} - B^{2}$ . But, we know something about expressions which look like this. That is, we can factor these expressions as . $(A - B)(A + B)$ . This means our question is really asking, can we write . $A^{2} - B^{2} = (A - B)(A + B) = 2020$ . in some way other than . $2020 = 106^{2} - 96^{2}$ . This means we are looking for $A$ and $B$ such that $(A - B)$ and $(A + B)$ are factors of $2020$. To that end, the first thing to do is look at the factors of $2020$. Factoring we get . $2020 = 2^{2} cdot 5 cdot 101$ . This means we need to solve equations like . $ begin{align*} A + B &amp;= (101)(2) = 202 A - B &amp;= (5)(2) = 10 end{align*}$ . We know $A + B$ is bigger than $A - B$ so we know the factor $A + B$ will always use at least the factor $101$. Looking at the number of factors and the previous fact, there are only $5$ different sets of equations to check. Lets work the first set and see if we get any hints that will make checking the $5$ faster. We will solve the first equation of $A$ and substitute this into the second equation and solve for $B$ . $ begin{align*} A + B &amp;= 202 rightarrow A = 202 - B qquad qquad (1) A - B &amp;= 10 202 - B - B &amp;= 10 -2B &amp;= 10 - 202 -2B &amp;= -192 qquad qquad qquad qquad qquad : (2) B &amp;= 96 rightarrow A = 202 - 96 = 106 end{align*}$ . First, this is the solution we were given to begin with. Next, it becomes clear that in each subsequent pair of equations, we are going to end up with an expression of the form . $-2B = ( text{first constant}) - ( text{second constant})$ . There can not be an integer solution to this set of equations unless the difference is even. So we can take a short cut an simply look at all the differences. . $ begin{align*} 101 - 20 &amp;= 81 leftarrow text{Not integer solutions} 404 - 5 &amp;= 399 leftarrow text{Not integer solutions} 505 - 4 &amp;= 501 leftarrow text{Not integer solutions} 1010 - 2 &amp;= 1008 leftarrow textbf{VALID!} end{align*}$ . So there is one more solution to the problem. Looking back at $(1)$ and $(2)$, we can quickly solve to find . $ begin{align*} -2B &amp;= -1008 B &amp;= 504 rightarrow A = 1010 - 504 = 506 end{align*}$ . Therefore there are two different pair of integers such that the difference of their squares is $2020$ . $ begin{align*} 2020 &amp;= 106^{2} - 96^{2} 2020 &amp;= 506^{2} - 504^{2} end{align*}$ .",
+    "url": "http://localhost:4000/solns/old/old2.html",
+    "relUrl": "/solns/old/old2.html"
+  }
+  ,"8": {
     "title": "Soln 2020-01 #1",
     "content": "Question . In which base is $62 times 11 = 1012$ . Solution . We can re-write the equation above as . where $n$ is the base of the number system (i.e $ mathbb{Z}_{n}$). Solving this equation for $n$ we get . $$ begin{align*} (6n + 2)(n + 1) &amp;= n^{3} + n + 2 6n^{2} + 6n + 2n + 2 &amp;= n^{3} + n + 2 n^{3} - 6n^{2} - 7n &amp;= 0 n(n^{2} - 6n - 7) &amp;= 0 n(n - 7)(n + 1) &amp;= 0 therefore n &amp;= 0 rightarrow text{Not a valid solution} n &amp;= -1 rightarrow text{Not a valid solution} n &amp;= 7 leftarrow textbf{The solution} end{align*}$$ .",
     "url": "http://localhost:4000/solns/jan2020/p1.html",
     "relUrl": "/solns/jan2020/p1.html"
   }
-  ,"8": {
+  ,"9": {
     "title": "Soln 2020-01 #2",
     "content": "Question . What is the the sum . Solution . First, we reorganize the summation terms like so . which we can then write as the sum of two infinite sums . We can reorganize this as . which can be re-written as . Using the identity $ x^{a} x^{b} = x^{a+b}$ we can then write . which we can collect factors to write . or . which we can simplify using the identity $(x^{a})^{b} = x^{ab}$ to . We can now use the identity . $$ sum_{n=0}^{ infty} a^{n} = frac{1}{1-a} quad text{if} : a &lt; 1$$ to write .",
     "url": "http://localhost:4000/solns/jan2020/p2.html",
     "relUrl": "/solns/jan2020/p2.html"
   }
-  ,"9": {
+  ,"10": {
     "title": "Soln 2020-01 #3",
     "content": "Question . $ text{log}_{10}(x) = 2 - text{log}_{10}(25)$ . Solution . $ begin{align*} log_{10}(x) &amp;= 2 - log_{10}25 log_{10}(x) + log_{10}25 &amp;= 2 end{align*}$ . but . $log_{b}(xy) = log_{b}(x) + log_{b}(y)$ . thus . $ log_{10}(25 x) = 2$ . however . $ log_{b} = c Rightarrow b^{c} = x$ . therefore . $ begin{align*} 25x &amp;= 10^{2} = 100 x &amp;= 4 end{align*}$ .",
     "url": "http://localhost:4000/solns/jan2020/p3.html",
     "relUrl": "/solns/jan2020/p3.html"
   }
-  ,"10": {
+  ,"11": {
     "title": "Soln 2020-01 #4",
     "content": "Question . What is the maximum area of a rectangle with perimeter of $12$ . Solution . $ text{Area of Rectangle} = L times W text{Perimeter of Rectangle} = 2L + 2W$ . thus . $ begin{align*} 2L + 2W &amp;= 12 2L &amp;= 12 - 2W L &amp;= 6 - W end{align*}$ . using this with the area equation we get . $A = L times W = (6 - W)(W) = 6W - W^{2}$ . taking the first derivative of A with respect to $W$ . $ frac{dA}{dW} = 6 - 2W$ . setting this $= 0$ we find the local min, max or inflection points . $ begin{align*} 6 - 2W &amp;= 0 6 &amp;= 2W W &amp;= 3 end{align*}$ . taking the second derivative of A with respect to $W$ . $ frac{d^{2}A}{dW^{2}} = - 2$ . Since this is negative for all $W$, then the the point is a local maximum. Solving for $L$ . $ L = 6 - (3) = 3 therefore A_{max} = 3 times 3 = 9$ .",
     "url": "http://localhost:4000/solns/jan2020/p4.html",
     "relUrl": "/solns/jan2020/p4.html"
   }
-  ,"11": {
+  ,"12": {
     "title": "Soln 2020-01 #5a",
     "content": "Question . What is the smallest prime factor of $10^{101} + 1$ . Solution . We want to look for a pattern in the factorization of . To this end, we look at the values and factorization for $1 leq n leq 10$. A simple julia program to do this is . julia&gt; for i in 1:10 println(&quot;$(BigInt(10)^i + 1) = $( factor(Set, BigInt(10)^i + 1) )&quot;) end 11 = Set(BigInt[11]) 101 = Set(BigInt[101]) 1001 = Set(BigInt[7, 13, 11]) 10001 = Set(BigInt[137, 73]) 100001 = Set(BigInt[11, 9091]) 1000001 = Set(BigInt[101, 9901]) 10000001 = Set(BigInt[11, 909091]) 100000001 = Set(BigInt[17, 5882353]) 1000000001 = Set(BigInt[7, 52579, 13, 19, 11]) 10000000001 = Set(BigInt[3541, 101, 27961]) . We see there is a pattern developing. For $n$ odd, the smallest prime factor is $11$. For $n$ even, we can not say anything about the smallest prime factor. Since we were asking about and $101$ is odd, then $11$ is the smallest prime factor. . A more Algebraic (and complete) solution to this problem can be found by noting the following relationships . $ begin{split} x^3 + 1 &amp;= (x+1)(x^{2} - x + 1) x^5 + 1 &amp;= (x+1)(x^{4} - x^{3} + x^{2} - x + 1) x^7 + 1 &amp;= (x+1)(x^{6} - x^{5} + x^{4} - x^{3} + x^{2} - x + 1) vdots x^{101} + 1 &amp;= (x+1)(x^{100} - x^{99} + x^{98} - ldots + x^{6} - x^{5} + x^{4} - x^{3} + x^{2} - x + 1) end{split}$ . That is, for $n$ odd, $x^{n} + 1$ can be factored as . Now let $x = 10$ and get the relationship . . Note: Never discount using a tool like a CAS to explore the “shape” of the problem. This can often point you in the direction of a more formal or exact solution/proof. Math actually can be a very experimental experience, though rarely enough is this shown. . Exploring factoing in julia can be acomplished by doing the following (this assumes the SymPy module has not been built or loaded into your julia enviroment if you are using the suggested service skip the first command(s)) . julia&gt; using Pkg; Pkg.add(&quot;SymPy&quot;); using SymPy &lt;LOTS OF STUFF HERE&gt; julia&gt; @vars x (x,) julia&gt; factor(x^3 + 1) ⎛ 2 ⎞ (x + 1)⋅⎝x - x + 1⎠ julia&gt; factor(x^5 + 1) ⎛ 4 3 2 ⎞ (x + 1)⋅⎝x - x + x - x + 1⎠ julia&gt; factor(x^7 + 1) ⎛ 6 5 4 3 2 ⎞ (x + 1)⋅⎝x - x + x - x + x - x + 1⎠ julia&gt; factor(x^4 + 1) 4 x + 1 julia&gt; factor(x^6 + 1) ⎛ 2 ⎞ ⎛ 4 2 ⎞ ⎝x + 1⎠⋅⎝x - x + 1⎠ julia&gt; factor(x^8 + 1) 8 x + 1 julia&gt; .",
     "url": "http://localhost:4000/solns/jan2020/p5a.html",
     "relUrl": "/solns/jan2020/p5a.html"
   }
-  ,"12": {
+  ,"13": {
     "title": "Soln 2020-01 #5b",
     "content": "Question . What is $7^{40895} text{mod} 30$ ? . Solution . Solution . We are looking for a pattern (cycle) for powers of $7$ mod $30$. Or at least we hope to find one. This would greatly simplify finding the $40895^{ text{th}}$ power of anything. We begin by looking at the first $10$ powers of $7$ mod $30$. Here is some julia code to do just that . julia&gt; for i in 1:10 println(&quot;$(BigInt(7)^i)&quot;) end 7 49 343 2401 16807 117649 823543 5764801 40353607 282475249 julia&gt; for i in 1:10 println(&quot;$(BigInt(7)^i % 30)&quot;) end 7 19 13 1 7 19 13 1 7 19 . As we can see, there is a cycle $ lbrace 7,19,13,1 rbrace$ of length $4$. We need only figure out the easier problem But this is . julia&gt; 40895 % 4 3 . Therefore $7^{40895} : mod : 30 = 13$ or the third element of the cycle $ lbrace 7,19,13,1 rbrace$ .",
     "url": "http://localhost:4000/solns/jan2020/p5b.html",
     "relUrl": "/solns/jan2020/p5b.html"
   }
-  ,"13": {
+  ,"14": {
     "title": "Soln 2020-01 #6a",
     "content": "Question . What is . Solution . Coming Soon .",
     "url": "http://localhost:4000/solns/jan2020/p6a.html",
     "relUrl": "/solns/jan2020/p6a.html"
   }
-  ,"14": {
+  ,"15": {
     "title": "Soln 2020-01 #6b",
     "content": "Question . Given the unbalanced chemical reaction (Rocket Fuel) . If the molar mass of $ ce{Al}$ is $ frac{1}{4}$ the molar mass of $ ce{NH4ClO4}$, what percent of the propellan should be $ ce{Al}$ by mass? . Solution . Coming Soon .",
     "url": "http://localhost:4000/solns/jan2020/p6b.html",
     "relUrl": "/solns/jan2020/p6b.html"
   }
-  ,"15": {
+  ,"16": {
     "title": "Soln 2020-01 #7a",
     "content": "Question . If Json can fold a cran in $4$ minutes, and Alex can fold a $5$ cranes in $12$ minutes, how many minutes would it take for t hem to fold $10$ working together? . Solution . Coming Soon .",
     "url": "http://localhost:4000/solns/jan2020/p7a.html",
     "relUrl": "/solns/jan2020/p7a.html"
   }
-  ,"16": {
+  ,"17": {
     "title": "Soln 2020-01 #7b",
     "content": "Question . Find the size of the angle . . A larger image for printing . Solution . Coming Soon .",
     "url": "http://localhost:4000/solns/jan2020/p7b.html",
     "relUrl": "/solns/jan2020/p7b.html"
   }
-  ,"17": {
+  ,"18": {
     "title": "Soln 2020-01 #8",
     "content": "Question . How many different paths can a ball dropped from the top take to reach the bottom? . . Solution . Coming Soon .",
     "url": "http://localhost:4000/solns/jan2020/p8.html",
     "relUrl": "/solns/jan2020/p8.html"
   }
-  ,"18": {
+  ,"19": {
     "title": "Soln 2020-01 #9a",
     "content": "Question . What is the smallest positive solution to . Solution . Coming Soon .",
     "url": "http://localhost:4000/solns/jan2020/p9a.html",
     "relUrl": "/solns/jan2020/p9a.html"
   }
-  ,"19": {
+  ,"20": {
     "title": "Soln 2020-01 #9b",
     "content": "Question . You have one more small ornament to hang on the mobile shown below . . A larger image for printing . After you place it, the mobile should be perfectly balanced at all levels. How many possible places can you put it? . Solution . Coming Soon .",
     "url": "http://localhost:4000/solns/jan2020/p9b.html",
