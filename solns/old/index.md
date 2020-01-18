@@ -19,5 +19,13 @@ Here are the problems and solutions to the problems asked at some point in the p
 
    [Solution](old1)
 
+2. It is possible to write the number $2020$ as the difference of two squares
 
+   $2020 = 106^{2} - 96^{2}$
+
+   is there any *other way* to write $2020$ as the difference of two squares?
+
+   > ***Note: We are looking for the difference of squares of positive integers***
+
+   [Solution](old2)
 
