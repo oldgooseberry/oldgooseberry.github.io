@@ -1,6 +1,6 @@
 ---
 layout:       page
-title:        "Soln 2020-01 #"
+title:        "Soln 2020-01 #1"
 author:       Beelzebub
 category:     [Questions Jan2020]
 use_math:     true
@@ -15,13 +15,13 @@ Find the length of the side rectangle.
 
 ![](/img/older/square_1.png)
 
-A [larger image for printing](/img/older/square_1.jpeg)
+[A larger image for printing](/img/older/square_1.jpeg)
 
 # Solution
 
 ![](/img/older/square_1_soln.png)
 
-A [larger image for printing](/img/older/square_1_soln.jpeg)
+[A larger image for printing](/img/older/square_1_soln.jpeg)
 
 We have added the label $\alpha$ for the length of a side we will use in the solution. We have also labled two sets of angles which are congruent.
 
