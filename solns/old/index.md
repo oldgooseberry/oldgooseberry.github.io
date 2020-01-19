@@ -15,7 +15,7 @@ Here are the problems and solutions to the problems asked at some point in the p
 
    ![](/img/older/square_1.png)
 
-   A [larger image for printing](/img/older/square_1.jpeg)
+   [A larger image for printing](/img/older/square_1.jpeg)
 
    [Solution](old1)
 
@@ -28,4 +28,12 @@ Here are the problems and solutions to the problems asked at some point in the p
    > ***Note: We are looking for the difference of squares of positive integers***
 
    [Solution](old2)
+
+3. The triangle is equilateral, and the upper rectangle is made of two squares. The upper rectangle's area is 12. What is the lower square's area?
+
+   ![](/img/older/square_2.png)
+
+   [A larger image for printing](/img/older/square_2.jpeg)
+
+   [Solution](old3)
 
