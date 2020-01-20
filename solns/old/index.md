@@ -37,3 +37,16 @@ Here are the problems and solutions to the problems asked at some point in the p
 
    [Solution](old3)
 
+4. What is the sum of the measures of the three pink angles, $\angle{A} + \angle{B} + \angle{C}$?
+
+   ![](/img/older/angle1.png)
+
+   [A larger image for printing](/img/older/angle1.jpeg)
+
+   [Solution](old4)
+
+5. The average Thanksgiving dinner weights about 1 kg and contains 3200 kcal, which is about 1200 kcal above our (average) daily requirement.
+
+   If the specific heat of food is about 1 $\frac{\text{kcal}}{\text{kg°C}}$, how cold would we have to make our food in order to completely expend the excess calories in heating the food to body temperature?
+
+   [Solution](old5)
