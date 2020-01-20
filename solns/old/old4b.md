@@ -26,7 +26,7 @@ In this solution, we will be working with a few simple facts.
 2. These triangles have a sum of internal angles of $180°$.
 3. If a polygon has $n$ sides, it can be divided into $(n-2)$ triangles
 
-Collectively, these imply the at the sum of the internal angles of any polygon is
+Collectively, these imply the sum of the internal angles of any polygon with $n$ sides is
 
 $ (n - 2) \cdot 180°$
 
