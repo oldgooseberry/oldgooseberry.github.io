@@ -43,7 +43,11 @@ Here are the problems and solutions to the problems asked at some point in the p
 
    [A larger image for printing](/img/older/angle1.jpeg)
 
-   [Solution](old4)
+   There are two solutions for this one (really there are likely more, these are just two).
+
+   [Solution a](old4a)
+ 
+   [Solution b](old4b)
 
 5. The average Thanksgiving dinner weights about 1 kg and contains 3200 kcal, which is about 1200 kcal above our (average) daily requirement.
 
