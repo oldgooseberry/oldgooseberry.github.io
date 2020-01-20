@@ -13,7 +13,7 @@ vendor
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 .DS_Store
-.pxm
+*.pxm
 
 # Directories potentially created on remote AFP share
 .AppleDB
