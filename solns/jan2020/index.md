@@ -113,8 +113,6 @@ Here are the problems and solutions to the problems asked during January of 2020
 
    ![](/img/jan2020/graph1.png)
 
-   [A larger image for printing](/img/jan2020/graph1.jpeg)
-
    [Solution](p11)
 
 
