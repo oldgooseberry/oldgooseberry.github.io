@@ -16,24 +16,24 @@ Here are the problems and solutions to the problems asked during January of 2020
    [Solution](p1)
 
 
-2. What is the the sum
+1. What is the the sum
 
    $$\frac{16}{3} + \frac{32}{9} + \frac{16}{27} + \frac{32}{81} +  \ldots$$
 
    [Solution](p2)
 
 
-3. {% raw %}{::nomarkdown}<div>$\text{log}_{10}(x) = 2 - \text{log}_{10}(25)$</div>{:/}{% endraw %}
+1. {% raw %}{::nomarkdown}<div>$\text{log}_{10}(x) = 2 - \text{log}_{10}(25)$</div>{:/}{% endraw %}
 
    [Solution](p3)
 
 
-4. What is the maximum area of a rectangle with perimeter of $12$
+1. What is the maximum area of a rectangle with perimeter of $12$
 
    [Solution](p4)
 
 
-5. Two questions
+1. Two questions
 
    a. What is the smallest prime factor of $10^{101} + 1$
 
@@ -44,7 +44,7 @@ Here are the problems and solutions to the problems asked during January of 2020
    [Solution](p5b)
 
 
-6. Two questions
+1. Two questions
 
    a. What is 
 
@@ -61,7 +61,7 @@ Here are the problems and solutions to the problems asked during January of 2020
    [Solution](p6b)
 
 
-7. Two questions
+1. Two questions
 
    a. If Json can fold a cran in $4$ minutes, and Alex can fold a $5$ cranes in $12$ minutes, how many minutes would it take for them to fold $10$ working together? 
 
@@ -76,14 +76,14 @@ Here are the problems and solutions to the problems asked during January of 2020
    [Solution](p7b)
 
 
-8. How many different paths can a ball dropped from the top take to reach the bottom?
+1. How many different paths can a ball dropped from the top take to reach the bottom?
 
    ![](/img/jan2020/jan16.png)
 
    [Solution](p8)
 
 
-9. Two questions 
+1. Two questions 
 
    a. What is the smallest positive solution to
 
@@ -100,5 +100,38 @@ Here are the problems and solutions to the problems asked during January of 2020
    After you place it, the mobile should be perfectly balanced at all levels. How many possible places can you put it? 
 
    [Solution](p9b)
+
+
+1. Find the product
+
+   $ 33 \times .5454545454\ldots $
+
+   [Solution](p10)
+
+
+1. What is the y-intercept
+
+   ![](/img/jan2020/graph1.png)
+
+   [A larger image for printing](/img/jan2020/graph1.jpeg)
+
+   [Solution](p11)
+
+
+1. Avery arrives at a coffee shop at a random time between 7:00 and 9:00. and Bruno at a random time between 6:00 and 10:00. The arrival times are independant.
+
+   What is the probability that Bruno arrives at least $\frac{1}{2}$hr after Avery?
+
+   [Solution](p12)
+
+
+1. What is the second prime number of the form 
+
+   $W_{n} = n \cdot 2^{n} - 1$
+
+   [Solution](p13)
+
+
+
 
 
