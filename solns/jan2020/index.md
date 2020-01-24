@@ -63,7 +63,7 @@ Here are the problems and solutions to the problems asked during January of 2020
 
 1. Two questions
 
-   a. If Json can fold a cran in $4$ minutes, and Alex can fold a $5$ cranes in $12$ minutes, how many minutes would it take for them to fold $10$ working together? 
+   a. If Json can fold a crane in $4$ minutes, and Alex can fold $5$ cranes in $12$ minutes, how many minutes would it take for them to fold $10$ working together? 
 
    [Solution](p7a)
 
