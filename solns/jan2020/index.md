@@ -127,7 +127,23 @@ Here are the problems and solutions to the problems asked during January of 2020
 
    $W_{n} = n \cdot 2^{n} - 1$
 
-   [Solution](p13)
+   [Solution](p13a)
+
+
+
+1. Two questions
+
+   a. If $54$ is divided into three parts that are proportional to 2, 3, and 4, what is the largest part?
+
+   [Solution](p14a)
+
+   b. The shapes below are made by extending the sides of a regular pentagon and a regular hexagon. Which shape has more of its area shaded?
+
+   ![](/img/jan2020/area1.png)
+
+   [A larger image for printing](/img/jan2020/area1.jpeg)
+
+   [Solution](p14b)
 
 
 
