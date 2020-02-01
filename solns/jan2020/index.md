@@ -127,7 +127,7 @@ Here are the problems and solutions to the problems asked during January of 2020
 
    $W_{n} = n \cdot 2^{n} - 1$
 
-   [Solution](p13a)
+   [Solution](p13)
 
 
 
