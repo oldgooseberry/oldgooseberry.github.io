@@ -147,5 +147,40 @@ Here are the problems and solutions to the problems asked during January of 2020
 
 
 
+1. What is
+
+   $9 + 6 + 4 + \frac{8}{3} + \frac{16}{9} + \ldots$
+
+   [Solution](p15)
+
+
+1. Set $A$ has 20 elements. Set $B$ has 21 elements. $\vert A \cap B \vert = 13$. What is $\vert A \cup B \vert = 13$?
+
+   [Solution](p16)
+
+1. Two questions
+
+   a. Given
+
+      {% raw %}{::nomarkdown}<div>
+      $\begin{align*} 
+      \begin{array} \\
+      AAAA \\
+      \times \quad \; B\\
+      \hline \\
+      CBBBA
+      \end{array}
+      \end{align*}$
+      </div>{:/}{% endraw %}
+
+      What is $A + C$?
+
+   [Solution](p17a)
+
+   b. What is
+
+      $41 + 2 - 3 \cdot 4 - 5 + 24 \div 2^{3} - 3 \cdot 2 + 6 = ?$
+
+   [Solution](p17b)
 
 
