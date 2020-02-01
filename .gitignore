@@ -14,6 +14,7 @@ vendor
 .com.apple.timemachine.donotpresent
 .DS_Store
 *.pxm
+*.afphoto
 
 # Directories potentially created on remote AFP share
 .AppleDB
