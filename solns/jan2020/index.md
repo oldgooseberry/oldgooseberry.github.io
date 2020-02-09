@@ -154,7 +154,7 @@ Here are the problems and solutions to the problems asked during January of 2020
    [Solution](p15)
 
 
-1. Set $A$ has 20 elements. Set $B$ has 21 elements. $\vert A \cap B \vert = 13$. What is $\vert A \cup B \vert = 13$?
+1. Set $A$ has 20 elements. Set $B$ has 21 elements. $\vert A \cap B \vert = 13$. What is $\vert A \cup B \vert$?
 
    [Solution](p16)
 
