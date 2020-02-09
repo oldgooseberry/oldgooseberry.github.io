@@ -184,3 +184,12 @@ Here are the problems and solutions to the problems asked during January of 2020
    [Solution](p17b)
 
 
+1. If the area of the the square $ABCD$ is 36, what is the perimeter of $ABCDE$
+
+   [Solution](p18)
+
+
+1. A jumbo jet has an acceleration of $2 \frac{m}{sec^{2}}$ during takeoff, and a midsized jet has an acceleration of $3 \frac{m}{sec^{2}}$ during takeoff. If both jets need to reach a speed of $75 \frac{m}{sec}$ before takeoff and the runway is $1200 m$ will both work?
+
+   [Solution](p19)
+
