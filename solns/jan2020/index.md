@@ -186,6 +186,8 @@ Here are the problems and solutions to the problems asked during January of 2020
 
 1. If the area of the the square $ABCD$ is 36, what is the perimeter of $ABCDE$
 
+   ![](/img/jan2020/box1.png)
+
    [Solution](p18)
 
 
